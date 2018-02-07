@@ -5,7 +5,10 @@
 		<!-- Customize your theme here. -->
 		<item name="colorPrimary">@color/colorPrimary</item>
 		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<!--item name="colorPrimaryLight">@color/colorPrimaryLight</item-->
 		<item name="colorAccent">@color/colorAccent</item>
+		<!--item name="textColorPrimary">@color/colorPrimaryText</item>
+		<item name="textColorSecondary">@color/colorSecondaryText</item-->
 	</style>
 
 </resources>

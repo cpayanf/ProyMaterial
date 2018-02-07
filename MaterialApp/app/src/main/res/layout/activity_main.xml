@@ -7,12 +7,24 @@
 	tools:context="com.coursera.cpayanf.materialapp.MainActivity">
 
 	<TextView
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
+		android:layout_width="236dp"
+		android:layout_height="156dp"
 		android:text="Hello World!"
+		android:textSize="36sp"
 		app:layout_constraintBottom_toBottomOf="parent"
 		app:layout_constraintLeft_toLeftOf="parent"
 		app:layout_constraintRight_toRightOf="parent"
 		app:layout_constraintTop_toTopOf="parent" />
+
+	<android.support.design.widget.FloatingActionButton
+		android:id="@+id/floatingActionButton2"
+		android:layout_width="40dp"
+		android:layout_height="40dp"
+		android:clickable="true"
+		app:srcCompat="@android:drawable/ic_menu_add"
+		app:layout_constraintHorizontal_bias=".9"
+		app:layout_constraintVertical_bias="0.001"
+		tools:layout_editor_absoluteX="340dp"
+		tools:layout_editor_absoluteY="0dp" />
 
 </android.support.constraint.ConstraintLayout>
