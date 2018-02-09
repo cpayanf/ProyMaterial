@@ -11,4 +11,11 @@
 		<item name="textColorSecondary">@color/colorSecondaryText</item-->
 	</style>
 
+	<style name="MainButtons" parent="Theme.AppCompat.Light">
+		<item name="colorButtonNormal">@color/colorAccent</item>
+		<item name="colorControlHighlight">@color/colorAccentHighlight</item>
+		<item name="android:textColor">@color/colorPrimaryText</item>
+	</style>
+
+
 </resources>
